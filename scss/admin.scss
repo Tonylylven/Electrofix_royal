@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.menu {
+    padding-top: 20px;
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.active {
+    display: block;
+}
+
+.logout-button {
+    margin-top: 40px;
+    margin-left: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 200, 0);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.logout-button:hover {
+    background-color: rgb(203, 221, 0);
+}
+
+button {
+    background-color: #808080; /* Серый цвет фона */
+    color: white; /* Цвет текста */
+    padding: 10px 20px; /* Внутренние отступы */
+    border: none; /* Убираем границы */
+    border-radius: 5px; /* Закругляем углы */
+    font-size: 18px; /* Размер текста */
+    font-weight: bold; /* Жирный шрифт */
+    text-transform: uppercase; /* Преобразуем текст в верхний регистр */
+    letter-spacing: 1px; /* Расстояние между буквами */
+    cursor: pointer; /* Делаем курсор при наведении на кнопку */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3); /* Тень кнопки */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+}
+
+button:hover {
+background-color: #A9A9A9; /* Серый цвет фона при наведении */
+}
+
+#requests h2{
+    margin-top: 40px;
+}
